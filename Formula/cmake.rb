@@ -39,7 +39,7 @@ class Cmake < Formula
     system "make"
     system "make", "install"
     rm_rf("#{share}/doc")
-    rm_rf("#{share}/cmake/Help")
+    rm_rf("#{pkgshare}/Help")
   end
 
   test do
