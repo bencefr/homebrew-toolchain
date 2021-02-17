@@ -6,11 +6,6 @@ class Cmake < Formula
   license "BSD-3-Clause"
   head "https://gitlab.kitware.com/cmake/cmake.git"
 
-  livecheck do
-    url :stable
-    strategy :github_latest
-  end
-
   uses_from_macos "ncurses"
 
   on_linux do
